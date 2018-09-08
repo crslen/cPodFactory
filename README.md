@@ -1,2 +1,2 @@
 # cPod Factory
-An Automation for Lab in nested SDDC 
+Lab Automation in nested VMware SDDC 
