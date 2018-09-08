@@ -1,0 +1,12 @@
+#!/bin/bash
+#bdereims@vmware.com
+
+ROOT_DOMAIN="acme.lab"
+ALL_CLUSTER=(acme)
+
+ENV=$CLUSTER
+if [[ ! ${CLUSTER} ]]; then
+	ENV=${ALL_CLUSTER[0]}
+fi
+
+source env-${ENV}

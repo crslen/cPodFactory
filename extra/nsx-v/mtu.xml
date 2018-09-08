@@ -1,0 +1,14 @@
+<vdsContext>
+<switch>
+<objectId>dvs8431</objectId>
+<type>
+<typeName>DistributedVirtualSwitch</typeName>
+</type>
+<name>
+</name>
+<revision>0</revision>
+<objectTypeName>DistributedVirtualSwitch</objectTypeName>
+</switch>
+<teaming>FAILOVER_ORDER</teaming>
+<mtu>8192</mtu>
+</vdsContext>

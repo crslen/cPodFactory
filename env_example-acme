@@ -1,0 +1,25 @@
+#!/bin/bash
+#bdereims@vmware.com
+
+# this file is not synced in git
+. ./env.passwd
+
+CLUSTER="Cluster"
+HEADER="cPod"
+
+NETWORK_DIR=network
+COMPUTE_DIR=compute
+
+DNS=x.x.x.1
+NSX=x.x.x.2
+NSX_ADMIN="admin"
+NSX_TRANSPORTZONE="TZ"
+EDGE="edge-2"
+
+VCENTER=x.x.x.3
+VCENTER_ADMIN="administrator@vsphere.local"
+VCENTER_DATACENTER="Datacenter"
+VCENTER_CLUSTER="Cluster"
+TEMPLATE_VM="template-cPodrouter"
+TEMPLATE_ESX="template-ESX67"
+DATASTORE="Datastore"
